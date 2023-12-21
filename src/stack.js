@@ -12,6 +12,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * stack.pop(); // undefined
  *
  */
+
+// LIFO - Last In First Out
+
 class Stack {
   constructor() {
     this.stack = [];
